@@ -10,11 +10,9 @@ class BubbleSort {
     public BubbleSort(int[] arr) {
         this.arr = arr;
     }
-
     //Method to perform bubble sort 
     public void bubbleSort() {
         int n = arr.length;
-
         // Loop through the array n times (where n is the length of the array)
         for (int i = 0; i < n; i++) {
             boolean swapped = false;
