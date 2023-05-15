@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 //A class that implements bubble sort algorithm
+//
 class BubbleSort {
 
     private int[] arr; // input array
